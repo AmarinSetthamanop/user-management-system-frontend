@@ -1,0 +1,140 @@
+
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 16px;
+}
+
+
+.card {
+    background-color: #ffffffec;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 16px; /* เว้นระยะให้ทุก element */
+}
+
+
+.title_1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+
+.text_1, .text_2 {
+    font-size: 0.87rem;
+    color: gray;
+}
+.text_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text_3 {
+    margin-left: 5px;
+    color: rgba(67, 24, 209, 1);
+    font-weight: 500;
+}
+
+
+.title_2 {
+    font-size: 0.8rem;
+}
+
+
+.inputText {
+    padding: 12px;
+    border: 1px solid rgba(67, 24, 209, 1);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+.inputText:focus {
+    border-color: rgb(43, 0, 185);
+}
+
+
+.sendButton {
+    background-color: rgba(67, 24, 209, 1);
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.sendButton:hover:not(:disabled) {
+    background-color: rgb(43, 0, 185);
+}
+.sendButton:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+
+
+/* .errorText {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: 8px;
+} */
+
+
+
+
+.rememberMe_forgotPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rememberMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text_4 {
+    font-size: 0.8rem;
+    color: gray;
+    margin: 0px;
+    margin-left: 5px;
+}
+.text_5 {
+    color: rgba(67, 24, 209, 1);
+    font-size: 0.8rem;
+}
+
+
+
+
+
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
