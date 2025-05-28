@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# user-management-system-frontend
 
 ## Getting Started
 
-First, run the development server:
+This is a frontend testing project for the user management system.
 
-```bash
+The project is an experimental implementation of various tools used for managing user data through a web interface, including inserting, selecting, updating, and deleting data in a local development environment.
+
+Since this is a testing project, all code is openly available with **no obfuscation** and **no encryption**.
+
+This frontend works together with the backend, available at: https://github.com/AmarinSetthamanop/user-management-system-backend.git
+
+### 1. Clone the project to your local machine
+
+---bash
+git clone https://github.com/AmarinSetthamanop/user-management-system-frontend.git
+cd user-management-system-frontend
+
+### 2. Install dependencies and start the development server
+
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# user-management-system-frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## วิธีการใช้งาน
+
+Frontend testing project for user management system.
+
+โปรเจกต์นี้เป็นการทดลองการใช้งานเครื่องมือต่าง ๆ สำหรับจัดการข้อมูลผู้ใช้งานผ่านหน้าเว็บ (Web Page) เช่น การเพิ่ม (Insert), เรียกดู (Select), แก้ไข (Update) และลบ (Delete) ข้อมูลภายในเครื่อง (Local Development)
+
+เนื่องจากเป็นโปรเจกต์ทดลอง โค้ดทั้งหมดจะไม่มีการปกปิดข้อมูล (no obfuscation) และไม่มีการเข้ารหัส (no encryption)
+
+Frontend นี้ทำงานร่วมกับ backend ที่อยู่ในลิงก์: https://github.com/AmarinSetthamanop/user-management-system-backend.git
+
+### 1. Clone โปรเจกต์ลงในเครื่องของคุณ
+
+---bash
+git clone https://github.com/AmarinSetthamanop/user-management-system-frontend.git
+cd user-management-system-frontend
+
+### 2. ติดตั้ง dependencies และเริ่มต้นเซิร์ฟเวอร์
+
+npm install
+npm run dev
+
