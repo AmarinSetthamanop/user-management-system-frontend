@@ -12,7 +12,7 @@ This frontend works together with the backend, available at: https://github.com/
 
 ### 1. Clone the project to your local machine
 
----bash
+```bash
 git clone https://github.com/AmarinSetthamanop/user-management-system-frontend.git
 cd user-management-system-frontend
 
