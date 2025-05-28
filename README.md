@@ -15,12 +15,13 @@ This frontend works together with the backend, available at: https://github.com/
 ```bash
 git clone https://github.com/AmarinSetthamanop/user-management-system-frontend.git
 cd user-management-system-frontend
+```
 
 ### 2. Install dependencies and start the development server
-
+```bash
 npm install
 npm run dev
-
+```
 
 
 
@@ -43,12 +44,13 @@ Frontend นี้ทำงานร่วมกับ backend ที่อย�
 
 ### 1. Clone โปรเจกต์ลงในเครื่องของคุณ
 
----bash
+```bash
 git clone https://github.com/AmarinSetthamanop/user-management-system-frontend.git
 cd user-management-system-frontend
+```
 
 ### 2. ติดตั้ง dependencies และเริ่มต้นเซิร์ฟเวอร์
-
+```bash
 npm install
 npm run dev
-
+```
